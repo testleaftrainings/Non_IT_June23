@@ -1,0 +1,80 @@
+
+Today Agenda:
+
+09:00 to 10:00 -> OOPs & Inheritance
+10:00 to 10:30 -> Classroom+ break
+10:30 to 11:15 -> Polymorphism
+11:15 to 11:40 -> Classroom+Break
+11:40 to 12:50 -> Abstraction (Interface & Abstract class )
+12:50 to 01:10 -> Classroom
+
+
+
+OOPs:
+Object Oriented Programming Language
+
+mainly -used -> object
+
+data-variable
+functionality-method
+
+
+why we going for oops
+*Resuability
+*Flexablity
+*Efficient
+
+
+connect between two class we need use keyword "extends"
+parent class  extends  childclass
+
+Vehicle extends Auto -single inheritance or simple
+
+Vechicle extends Auto
+Vechicle extends car - Hierarchical inheritance
+
+vehicle extends car extends BMW- Multilevel inheritance
+
+
+Polymorphism:
+============
+
+two types
+1.Method overloading /static poly/compile time poly/early binding
+2.method overriding/dynamic poly/run time poly/late ninding
+
+
+overloading -i can have 2 or more same mathods inside the smae class but with different input
+args 
+class{
+
+public void add(){
+
+}
+public void add(){
+
+}
+
+public void add(int a)
+}
+
+
+public void add(int a,int b){
+
+}
+
+
+Abstraction:
+===========
+
+Interface-100% abstract method(unimplement methods)
+Abstract-class- 0 to 100% abstract (it will both implement & unimplements methods)
+Concrete-its should all implemented
+
+
+keywords:
+
+class to interface -> implements
+class to abstract class ->extends
+class to class ->extends
+interface to interface -> extends
