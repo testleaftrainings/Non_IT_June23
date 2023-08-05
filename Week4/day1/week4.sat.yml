@@ -1,0 +1,56 @@
+Today Agenda:
+08:45 to 09:00- Live Quiz
+09:00 to 10:15- Alert
+10:15 to 10:50- ClassRoom(20 mins)+Break(15mins)
+10:50 to 11:45- Frame
+11:45 to 12:15- ClassRoom(20mins)+Break(10mins)
+12:15 to 01:00- Collection-SET
+01:00 to 01:15- ClassRoom(15mins)
+
+
+Target Locators:
+1.Alert
+2.Frame
+3.Window handling
+
+
+
+
+ALert:
+*warning msg
+*popup
+*notification
+
+Modal Alert->cannot inspectable !
+* simple alert- one action can be performed -->(ok)
+* confirm alert- two actions can be performed (accpect,dismiss or yes,no or ok,cancle)
+* prompt alert- one text box,two actions can be performed
+
+
+Non modal alert
+* sweet alert -can be inspectable !
+no need to transfer my focus to alert,normal actions we can performed 
+
+
+
+
+Frame:
+if yo get NoSuchElementException we need check its inside frame or not 
+
+
+set:
+======
+
+
+int[] num={2,4,7,8,2,6,9}
+list -> index[4]
+get(4)->2
+
+
+2,4,7,8,6,9
+set-duplicate value is not allowed
+index [4]
+get[4]->6
+
+*we cannot use get method
+* collections.sort()--> TreeSet
