@@ -1,0 +1,65 @@
+Today Agenda:
+=============
+09:00 to 09:40->TestNG Introduction & convert normal script to TestNG tests 
+09:40 to 10:05->Breakout(15 mins)+Break(10 mins) 
+10:05 to 10:35->Sequential Execution 
+10:35 to 11:00->Breakout(15 mins)+Break(10 mins) 
+11:00 to 11:35-> Parallel Execution 
+11:35 to 12:00->Breakout(15 mins)+Break(10 mins) 
+12:00 to 12:40->TestNG Annotations 
+12:40 to 01:00->Breakout(20 mins) 
+01:00 to 01:10->Recap
+
+
+TestNG:
+TestNextGeneration
+
+j-unit
+
+Cedric Beust-
+J-Unit-java
+N-Unit-.Net
+
+TestNG-Execution Framework
+
+Limitation:
+===========
+
+1.20 testcase execution
+ * Run the Testcase Individually
+ Expectation:
+  *Run all the testcase together as well as in sequential & parallel execution
+
+2.Reports
+  *no reports
+  Expectation:
+  A basic Report & status of my testcase passed,failed
+
+3.Failed Testcase
+ *Manually
+ Expectation:
+ ReRun the failed testcase automatedly
+
+4.Data
+*Hardcode data
+Expectation:
+Data Driven Testing (multiple data)   
+
+
+Annotation:
+===========
+
+@BeforeSuite-it will execute only one time-(Start report)
+    @BeforeTest-connect with database or excel
+       @BeforeClass-Testcase details like author,category
+           @BeforeMethod- pre condition
+                @Test-Mandatory
+            @AfterMethod- post condition
+       @AfterClass
+    @AfterTest           
+@AfterSuite    
+
+
+
+@BeforeMethod
+@AfterMethod
