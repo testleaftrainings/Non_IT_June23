@@ -1,0 +1,89 @@
+Todays Agenda:
+=============
+  08:45 - 09:00 -> Live Quiz
+  09:00 - 10:00 -> How to Read Data from Excel
+  10:00 - 10:30 -> Classroom(20mins)+Break(10mins)
+  10:30 - 11:00 -> Integration with TestCase
+  11:00 - 11:25-> Classroom(15mins)+Break(10mins)
+  11:25 - 11:50 -> Common Integration
+  11:50 - 12:10 -> Classroom(20mins)
+  12:10 - 01:00 -> WebTable
+  01:00 - 01:10 ->Recap
+
+
+  Excel-
+  Apache poi -microsoft -excel,doc,pdf
+
+  poi
+
+  excel-.xls, .xlsx-
+
+  XSSF-XML Spreadsheet Format
+
+
+  Todays Agenda:
+=============
+  08:45 - 09:00 -> Live Quiz
+  09:00 - 09:50 -> How to Read Data from Excel
+  10:10 - 10:40 -> Classroom(20mins)+Break(10mins)
+  10:40 - 11:20 -> Integration with TestCase
+  11:20 - 11:45-> Classroom(15mins)+Break(10mins)
+  
+  11:50 - 12:15 -> Common Integration
+  12:15 - 12:30 -> Classroom(15mins)
+  12:30 - 01:15 -> WebTable
+  01:15 - 01:20 ->Recap
+
+
+
+  Sunday
+  ============
+  static & dynamic 
+  parameter & data provider
+
+  why we using data provider?
+  to pass mutiple testdata
+
+  we cannot able to store like 100 sets data
+
+
+  How to Read data from Excel
+  =================================
+  MicroSoft Excel-
+  Apache Poi -using java
+   *its open source
+   *accessing MS office software
+
+   Excel extensions:
+   * .xls
+   * .xlsx-Excel spreadsheet in xml format
+
+
+
+Integration with TestCase
+=================================
+
+
+Step 1- Declare a String[][] variable in Excel Program with dimensions a rowcount & cellcount
+
+Step2-save data into 2D array by having data[i-1][j]=data1 or cell.getStringCellValue();
+
+step 3- add return statement and change void to return type
+
+step4- keyword static retain &change method name and remove args
+
+createclass
+step 5-call classname.methodname 
+and return type
+
+
+
+
+
+
+Common data integration
+1.remove DataProvider from Create lead..paste in BaseClass 
+2.Create string variable in excelpgm pass into file data 
+3.need pass variable inside baseclass, pass variable as gobally 
+4.give the variable in dataprovider inside method() 
+5. Create @BeforeTest inside testcase create,edit and pass the value correctly
